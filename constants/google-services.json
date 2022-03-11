@@ -1,0 +1,41 @@
+{
+    "project_info": {
+        "project_number": "531154568286",
+        "firebase_url": "https://maxauto-293022.firebaseio.com",
+        "project_id": "maxauto-293022",
+        "storage_bucket": "maxauto-293022.appspot.com"
+    },
+    "client": [{
+        "client_info": {
+            "mobilesdk_app_id": "1:531154568286:android:70265a55fd47f4974fa0cf",
+            "android_client_info": {
+                "package_name": "com.propertimax.maxauto"
+            }
+        },
+        "oauth_client": [{
+                "client_id": "531154568286-f9vtkn21pmtb5f2jdcg4skjfjs3t7nak.apps.googleusercontent.com",
+                "client_type": 1,
+                "android_info": {
+                    "package_name": "com.propertimax.maxauto",
+                    "certificate_hash": "5b04f3bf6ad0cd9b3c61ef2ddf47b287293dff1f"
+                }
+            },
+            {
+                "client_id": "531154568286-lgibrvlttthqo26chp051c4lingtkhbo.apps.googleusercontent.com",
+                "client_type": 3
+            }
+        ],
+        "api_key": [{
+            "current_key": "AIzaSyB1aJP4YJ71ZQFYEQM73QCoL0OSh8wbPwk"
+        }],
+        "services": {
+            "appinvite_service": {
+                "other_platform_oauth_client": [{
+                    "client_id": "531154568286-lgibrvlttthqo26chp051c4lingtkhbo.apps.googleusercontent.com",
+                    "client_type": 3
+                }]
+            }
+        }
+    }],
+    "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "@stripe/stripe-react-native",
+        {
+          "merchantIdentifier": "12313123",
+          "enableGooglePay": true
+        }
+      ]
+    ],
+    "name": "maxAuto",
+    "slug": "maxAuto",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0e4e92"
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "your sentry organization's short name here",
+            "project": "your sentry project's name here",
+            "authToken": "70d88b1505b142a6b4f73937e60563c98ba650a57e854901aedcd63845295339"
+          }
+        }
+      ]
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.propertimax.maxauto",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.531154568286-tkf4fr6ufrkurp4bncov6gtmo7tnmb9s"
+        }
+      },
+      "googleServicesFile": "./constants/GoogleService-Info.plist"
+    },
+    "android": {
+      "package": "com.propertimax.maxauto",
+      "versionCode": 1,
+      "googleServicesFile": "./constants/GoogleService-Info.plist",
+      "useNextNotificationsApi": true
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "description": "Auto link",
+    "githubUrl": "https://github.com/alvaropavezb/maxauto"
+  }
+}
